@@ -40,4 +40,4 @@ if __name__ == "__main__":
 
     lr(x, y)
     lr(x_1, y)
-    lr(x_2, y)
+    lr(x_2, y) 
