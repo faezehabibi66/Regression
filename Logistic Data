@@ -33,7 +33,7 @@ while errorsum > 1 or errorsum < -1:
   for j in range(0,3):
     for i in range(n):
        h_theta[i] = g(h[i])
-       error[i]=(h_theta[i]-y[i])
+       error[i]=(h_theta[i]-y[i]) 
        error_x[j][i]=error[i]*x[j][i]
        sum[j] = sum[j]+error_x[j][i]
     theta_tr[j] = theta_tr[j] - 0.0004*sum[j]/n
